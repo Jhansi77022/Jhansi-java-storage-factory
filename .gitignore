@@ -1,0 +1,80 @@
+############################
+# Java / Maven
+############################
+
+# Build output
+target/
+build/
+out/
+sql/
+# Maven wrapper
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+############################
+# Ignore ALL test files
+############################
+src/test/
+
+############################
+# IntelliJ IDEA
+############################
+.idea/
+*.iml
+*.ipr
+*.iws
+
+############################
+# VS Code
+############################
+.vscode/
+
+############################
+# Eclipse
+############################
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated
+
+############################
+# NetBeans
+############################
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+############################
+# OS / System Files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Environment / Secrets
+############################
+.env
+*.db
+*.sqlite
+*.sqlite3
+
+############################
+# Kotlin (if any)
+############################
+.kotlin
+
+############################
+# Temporary / Cache Files
+############################
+*.tmp
+*.cache
+*.swp
